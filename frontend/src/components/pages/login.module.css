@@ -1,0 +1,20 @@
+.container {
+  min-height: 100vh;
+}
+.row {
+  min-height: inherit;
+}
+.col {
+  min-height: inherit;
+}
+.formContainer {
+  min-height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer__child {
+  flex-basis: 100%;
+}
